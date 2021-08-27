@@ -23,6 +23,9 @@ function Header() {
   return (
     <header style={styles.headerStyle} className="header">
       <h1 style={styles.headingStyle}>Welcome</h1>
+      <ul>
+        <li> <a href="#about">About Me</a></li>
+      </ul>
     </header>
   );
 }

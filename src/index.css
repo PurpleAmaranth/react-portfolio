@@ -4,12 +4,12 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
+  --primary: #958ba8;
   --secondary: #31343D;
   --tertiary: #b12704;
   --light: #fafafa;
   --dark: #799FBA;
-  --darker: #1F3B60;
+  --darker: #3e4958;
   --alpha: rgba(255,255,255,.7);
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -35,7 +35,6 @@ body {
   letter-spacing: 0.1em;
   background: var(--darker);
   color: var(--light);
-  font-family: 'Open Sans', sans-serif;
 }
 
 h1,
@@ -44,7 +43,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Aladin', cursive;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -185,7 +183,6 @@ header img {
 
 nav {
   position: relative;
-  font-family: 'Aladin', cursive;
   font-size: 2.5rem;
   margin: 30px 20px;
 }

@@ -1,25 +1,25 @@
 import React from 'react';
-import PageContent from '../PageContent';
-import About from '../About';
-import Portfolio from '../Portfolio';
-import Contact from '../Contact';
-import Resume from '../Resume';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import PageContent from '../components/PageContent';
+import Bio from '../components/Bio';
+import Portfolio from '../components/Portfolio';
+import Contact from '../components/Contact';
+import Experience from '../components/Experience';
+import { capitalizeFirstLetter } from '../utils/helpers';
 
 function Page({ currentPage }) {
 
   const renderPage = () => {
     switch (currentPage.name) {
-      case 'about me':
-        return <About />;
+      case 'bio':
+        return <Bio />;
       case 'portfolio':
         return <Portfolio />;
       case 'contact':
         return <Contact />;
-      case 'resume':
-        return <Resume />;
+      case 'experience':
+        return <Experience />;
       default:
-        return <About />;
+        return <Bio />;
     }
   };
 

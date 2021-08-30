@@ -1,7 +1,7 @@
-import React from 'react';
-import '../styles/Navbar.css';
+import React, { useEffect } from 'react';
+import { capitalizeFirstLetter } from '../utils/helpers';
 
-function Nav(props) {
+function Navbar(props) {
   const {
     pages = [],
     setCurrentPage,

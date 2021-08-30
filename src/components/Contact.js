@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../utils/helpers';
 
 function Contact() {
     const [formState, setFormState] = useState(
@@ -24,13 +24,13 @@ function Contact() {
         if (e.target.name === 'email') {
         const isValid = validateEmail(e.target.value);
         if (!isValid) {
-        setErrorMessage('Your email is invalid.');
+        setErrorMessage('Enter Valid Email.');
       } else {
         setErrorMessage('');
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
+        setErrorMessage(`${e.target.name} Required.`);
       } else {
         setErrorMessage('');
       }

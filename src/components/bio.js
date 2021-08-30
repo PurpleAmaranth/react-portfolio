@@ -1,5 +1,5 @@
 import React from 'react';
-import portraitImage from '../assets/images/talovett_headshot.png';
+import portrait from '../assets/images/talovett_headshot.png';
 
 
 function Bio() {
@@ -7,7 +7,7 @@ function Bio() {
       <section className="my-5">
         <div className="my-2">
           <div className="profile-img my-5">
-          <img class= "portrait" src={portraitImage} alt= "A portrait of T A Lovett."/>
+          <img class= "portrait" src={portrait} alt= "A portrait of T A Lovett."/>
           </div>
           <p>
           Hello! I'm Tiffany Lovett a Coding Entrepreneur and 

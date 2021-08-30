@@ -15,11 +15,9 @@ function Experience() {
                             <ul>Networking++ - RRCC Course 2021 - Test Pending</ul>
                         <h3>Degrees</h3>
                             <h4>Colorado School of Mines</h4>
-                                <ul>M.S. Computer Science - Current - GPA 4.0</ul>
-                            <h4>Red Rocks Community College</h4>
-                                <ul>A.S. General Studies - 2021 - GPA 4.0</ul>
+                                <ul>M.S. Computer Science - Ongoing</ul>
                             <h4>Johnson County Community College</h4>
-                                <ul>A.A. Liberal Arts - 2008 - GPA 3.3</ul>
+                                <ul>A.A. Liberal Arts - 2008</ul>
                     </ul>
         </section>
 

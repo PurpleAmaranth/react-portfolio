@@ -3,6 +3,7 @@ import Project from "../components/Project";
 
 function Portfolio() {
 
+  // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
       name: 'weather-update-app',
@@ -19,7 +20,7 @@ function Portfolio() {
     {
       name: 'can-you-code-quiz',
       description: 'HTML/JavaScript/CSS',
-      link: "https://purpleamaranth.github.io/can-you-code-quiz/",
+      link: "https://github.com/PurpleAmaranth/can-you-code-quiz/settings/pages",
       repo: "https://github.com/PurpleAmaranth/can-you-code-quiz"
     },
     {

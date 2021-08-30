@@ -36,6 +36,11 @@ body {
   background: var(--darker);
   color: var(--light);
 }
+.portrait {
+  height: 200px;
+  width: auto;
+  border-radius: 5%;
+}
 
 h1,
 h2,
@@ -239,7 +244,7 @@ textarea {
 }
 
 .flex-row {
-  display: flex;
+  display: flex auto;
   flex-wrap: wrap;
 }
 
@@ -358,3 +363,5 @@ textarea {
   cursor: default;
   text-shadow: 3px 3px 15px rgba(255,255,255, .5);
 }
+
+

@@ -2,28 +2,19 @@ import React from 'react';
 
 function Footer() {
 
-  const icons = [
-    {
-      name: "fab fa-github",
-      link: "https://github.com/PurpleAmaranth"
-    },
-    {
-      name: "fab fa-linkedin",
-      link: "https://www.linkedin.com/in/tiffany-lovett-9135b2ba/"
-    },
-    {
-      name: "fab fa-stack-overflow",
-      link: "https://stackoverflow.com/users/9440331/purple-amaranth"
-    }
-  ]
-
   return (
     <footer className="flex-row px-1">
-      {icons.map(icon =>
-      (
-        <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>
-      )
-        )}
+      <div>
+          <ul class>
+          GitHub:<a href="https://github.com/PurpleAmaranth">@PurpleAmaranth</a>
+          </ul>
+          <ul>
+          LinkedIn:<a href="https://www.linkedin.com/in/tiffany-lovett-9135b2ba/">Tiffany Lovett</a>
+          </ul>
+          <ul>
+          Stack Overflow:<a href="https://stackoverflow.com/users/9440331/purple-amaranth">Purple Amaranth</a>
+          </ul>
+      </div>
     </footer>
   );
 }

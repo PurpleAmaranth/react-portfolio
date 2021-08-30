@@ -5,7 +5,7 @@ function Bio() {
       <section className="my-5">
         <div className="my-2">
           <div className="profile-img my-5">
-          <img class="portrait" src="../assets/images/talovett_headshot.png" alt= "A portrait of T A Lovett."/>
+          <img class= "portrait" src={require("../assets/images/talovett_headshot.png")} alt= "A portrait of T A Lovett."/>
           </div>
           <p>
           Hello! I'm Tiffany Lovett a Coding Entrepreneur and 

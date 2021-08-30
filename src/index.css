@@ -206,8 +206,10 @@ ul.skills li {
 }
 
 footer {
-  font-size: 48px;
-  justify-content: center;
+  font-size: 18px;
+  justify-content: Left;
+  margin-left: 5rem;
+  filter: sepia(1) opacity(60%);
 }
 
 footer a {

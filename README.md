@@ -1,11 +1,10 @@
 # React: React Portfolio
-# Title: react-portfolio
 
 ## Description
 
-In this project I create a portfolio using React.
+In this project I create a portfolio using React. This application is deployed to GitHub Pages here: https://purpleamaranth.github.io/react-portfolio/.
 
-This application is deployed to GitHub Pages here: https://purpleamaranth.github.io/react-portfolio/.
+Reference Instructions: [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages)
 
 **Important:** The codebase is separated from the default branch by using the `gh-pages` branch to host the deployed application's build.
 

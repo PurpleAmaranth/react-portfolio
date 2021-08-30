@@ -7,13 +7,13 @@ function Portfolio() {
   const [projects] = useState([
     {
       name: 'weather-update-app',
-      description: 'MERN Stack',
+      description: 'Dynamic HTML/CSS/Server-Side API',
       link: "https://purpleamaranth.github.io/weather-update-app/",
       repo: "https://github.com/PurpleAmaranth/weather-update-app"
     },
     {
       name: 'note-taker',
-      description: 'MERN Stack',
+      description: 'Heroku/MERN Stack',
       link: "https://pa-note-taker.herokuapp.com/",
       repo: "https://github.com/PurpleAmaranth/note-taker"
     },

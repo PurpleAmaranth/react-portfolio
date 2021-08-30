@@ -6,6 +6,13 @@ In this project I create a portfolio using React. This application is deployed t
 
 Reference Instructions: [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages)
 
+**Note** This project is incomplete and is still a work in progress.
+
+You can see a gif of the website in its current state here: 
+
+https://user-images.githubusercontent.com/36141949/131280387-0b51825a-97e0-4ba5-80d0-e390d3b853d8.mp4
+
+
 **Important:** The codebase is separated from the default branch by using the `gh-pages` branch to host the deployed application's build.
 
 ## Mock-Up

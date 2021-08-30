@@ -8,7 +8,10 @@ Reference Instructions: [Create React App Docs on GitHub Pages](https://create-r
 
 **Note** This project is incomplete and is still a work in progress.
 
-You can see a gif of the website in its current state here: https://i.gyazo.com/7905689ff03e13ccc392123f2474702e.mp4
+You can see a gif of the website in its current state here: 
+
+https://user-images.githubusercontent.com/36141949/131280387-0b51825a-97e0-4ba5-80d0-e390d3b853d8.mp4
+
 
 **Important:** The codebase is separated from the default branch by using the `gh-pages` branch to host the deployed application's build.
 

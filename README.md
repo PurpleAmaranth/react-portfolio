@@ -6,9 +6,9 @@ In this project I create a portfolio using React. This application is deployed t
 
 Reference Instructions: [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages)
 
-**Note** This project is incomplete and is still a work in progress.
+**Note** This project is in need of a few more features and is still a work in progress.
 
-You can see a gif of the website in its current state here: 
+You can see a video of the website in its current state here: 
 
 https://user-images.githubusercontent.com/36141949/131289723-071e5ffb-3e89-4c9a-a978-206c76b1adc5.mp4
 
@@ -23,6 +23,8 @@ The following animation shows the original assignment's example application's ap
 ## Technology
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Instructions from React App on GitHub:
 
 ## Available Scripts
 
